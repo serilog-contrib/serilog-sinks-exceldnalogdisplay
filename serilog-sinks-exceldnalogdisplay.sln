@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAddIn", "sample\SampleAddIn\SampleAddIn.csproj", "{773F7798-9CF7-4CFA-8353-5D882D11490B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.ExcelDnaLogDisplay", "src\Serilog.Sinks.ExcelDnaLogDisplay\Serilog.Sinks.ExcelDnaLogDisplay.csproj", "{20E3AF43-2C31-47A6-8270-C1B8B4B6C665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.ExcelDnaLogDisplay.Tests", "test\Serilog.Sinks.ExcelDnaLogDisplay.Tests\Serilog.Sinks.ExcelDnaLogDisplay.Tests.csproj", "{6198F301-FDDB-4ED7-8A8B-A0B8E9871737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{6EDA15C1-B783-4A43-971E-3C9FAB25F5F8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CHANGES.md = CHANGES.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{6E9C203A-BC6E-450A-90ED-09302879C593}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{105AA164-EEC4-4F88-B306-EEDC21F486D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0CAE8238-2744-41E1-96CF-E94624E9FC7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{773F7798-9CF7-4CFA-8353-5D882D11490B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773F7798-9CF7-4CFA-8353-5D882D11490B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773F7798-9CF7-4CFA-8353-5D882D11490B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773F7798-9CF7-4CFA-8353-5D882D11490B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E3AF43-2C31-47A6-8270-C1B8B4B6C665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E3AF43-2C31-47A6-8270-C1B8B4B6C665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E3AF43-2C31-47A6-8270-C1B8B4B6C665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E3AF43-2C31-47A6-8270-C1B8B4B6C665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6198F301-FDDB-4ED7-8A8B-A0B8E9871737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6198F301-FDDB-4ED7-8A8B-A0B8E9871737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6198F301-FDDB-4ED7-8A8B-A0B8E9871737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6198F301-FDDB-4ED7-8A8B-A0B8E9871737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{773F7798-9CF7-4CFA-8353-5D882D11490B} = {6E9C203A-BC6E-450A-90ED-09302879C593}
+		{20E3AF43-2C31-47A6-8270-C1B8B4B6C665} = {105AA164-EEC4-4F88-B306-EEDC21F486D3}
+		{6198F301-FDDB-4ED7-8A8B-A0B8E9871737} = {0CAE8238-2744-41E1-96CF-E94624E9FC7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C22D4504-B651-4656-A4FB-B50A18ED06C2}
+	EndGlobalSection
+EndGlobal

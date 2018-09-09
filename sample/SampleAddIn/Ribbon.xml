@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab id="SampleTab" getLabel="SampleTab_GetLabel">
+        <group id="LoggingGroup" label="Logging to LogDisplay via Serilog Sink">
+          <button id="VerboseButton" label="Log Verbose" imageMso="Callout" size="large" onAction="VerboseButton_OnAction" />
+
+          <separator id="DebugSeparator" />
+          <button id="DebugButton" label="Log Debug" imageMso="MoreControlsDialog" size="large" onAction="DebugButton_OnAction" />
+
+          <separator id="InformationSeparator" />
+          <button id="InformationButton" label="Log Information" imageMso="Info" size="large" onAction="InformationButton_OnAction" />
+
+          <separator id="WarningSeparator" />
+          <button id="WarningButton" label="Log Warning" imageMso="TraceError" size="large" onAction="WarningButton_OnAction" />
+
+          <separator id="ErrorSeparator" />
+          <button id="ErrorButton" label="Log Error" imageMso="OutlineViewClose" size="large" onAction="ErrorButton_OnAction" />
+        </group>
+
+        <group id="LogDisplayGroup" label="LogDisplay">
+          <button id="ViewLogDisplayButton" label="View Log" imageMso="FileDocumentInspect" size="large" onAction="ViewLogDisplayButton_OnAction" />
+          <button id="ClearLogButton" label="Clear Log" imageMso="Clear" size="large" onAction="ClearLogDisplayButton_OnAction" />
+
+          <separator id="DisplayOrderSeparator" />
+          <menu id="DisplayOrderMenu" label="Display Order" getImage="DisplayOrderMenu_GetImage" size="large">
+            <button id="LogNewestLastButton" label="Newest Last" imageMso="EndOfDocument" onAction="LogNewestLastButton_OnAction" />
+            <button id="LogNewestFirstButton" label="Newest First" imageMso="StartOfDocument" onAction="LogNewestFirstButton_OnAction" />
+          </menu>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
