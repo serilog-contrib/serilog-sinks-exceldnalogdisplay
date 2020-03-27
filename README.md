@@ -4,7 +4,11 @@ Writes [Serilog](https://serilog.net) events to [Excel-DNA](https://excel-dna.ne
 
 ![Excel-DNA LogDisplay window screenshot](assets/exceldna-logdisplay-window.png)
 
-### Getting started
+## Give a Star! :star:
+
+If you like or are using this project please give it a star. Thanks!
+
+## Getting started
 
 Install the [Serilog.Sinks.ExcelDnaLogDisplay](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) package from NuGet:
 
