@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyCompany("caioproiete.net")]
 [assembly: AssemblyProduct("SampleAddIn")]
-[assembly: AssemblyCopyright("Copyright © 2018 Caio Proiete & Contributors")]
+[assembly: AssemblyCopyright("Copyright 2018-2020 Caio Proiete & Contributors")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

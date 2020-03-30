@@ -15,7 +15,7 @@
     <description>A Serilog sink that writes events to Excel-DNA LogDisplay</description>
     <language>en-US</language>
     <tags>serilog sink exceldna excel-dna logdisplay</tags>
-    <copyright>Copyright (c) 2018 Caio Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
+    <copyright>Copyright (c) 2018-2020 Caio Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
         <dependency id="Serilog" version="2.5.0" exclude="Build,Analyzers" />
