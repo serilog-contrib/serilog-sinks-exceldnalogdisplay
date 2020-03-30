@@ -19,7 +19,7 @@
     <dependencies>
       <group targetFramework=".NETFramework4.5">
         <dependency id="Serilog" version="2.5.0" exclude="Build,Analyzers" />
-        <dependency id="ExcelDna.Integration" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ExcelDna.Integration" version="1.1.0-beta1" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <frameworkAssemblies>
