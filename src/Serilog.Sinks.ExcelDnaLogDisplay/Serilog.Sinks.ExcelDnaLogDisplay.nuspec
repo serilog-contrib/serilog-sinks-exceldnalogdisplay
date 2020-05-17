@@ -3,19 +3,19 @@
   <metadata minClientVersion="3.3">
     <id>Serilog.Sinks.ExcelDnaLogDisplay</id>
     <version>0.0.1-local</version>
-    <authors>Caio Proiete</authors>
-    <owners>caioproiete</owners>
+    <authors>C. Augusto Proiete</authors>
+    <owners>augustoproiete</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/caioproiete/serilog-sinks-exceldnalogdisplay/releases/tag/v$version$</releaseNotes>
+    <releaseNotes>https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay/releases/tag/v$version$</releaseNotes>
     <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://github.com/caioproiete/serilog-sinks-exceldnalogdisplay</projectUrl>
-    <repository type="git" url="https://github.com/caioproiete/serilog-sinks-exceldnalogdisplay" />
-    <iconUrl>https://raw.githubusercontent.com/caioproiete/serilog-sinks-exceldnalogdisplay/master/assets/serilog-sinks-exceldnalogdisplay-nuget.png</iconUrl>
+    <projectUrl>https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay</projectUrl>
+    <repository type="git" url="https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay" />
+    <iconUrl>https://raw.githubusercontent.com/augustoproiete/serilog-sinks-exceldnalogdisplay/master/assets/serilog-sinks-exceldnalogdisplay-nuget.png</iconUrl>
     <summary>A Serilog sink that writes events to Excel-DNA LogDisplay</summary>
     <description>A Serilog sink that writes events to Excel-DNA LogDisplay</description>
     <language>en-US</language>
     <tags>serilog sink exceldna excel-dna logdisplay</tags>
-    <copyright>Copyright (c) 2018-2020 Caio Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
+    <copyright>Copyright (c) 2018-2020 C. Augusto Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
         <dependency id="Serilog" version="2.5.0" exclude="Build,Analyzers" />

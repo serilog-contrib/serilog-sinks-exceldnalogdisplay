@@ -1,4 +1,4 @@
-# Serilog.Sinks.ExcelDnaLogDisplay [![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![License](https://img.shields.io/github/license/caioproiete/serilog-sinks-exceldnalogdisplay.svg)](LICENSE)
+# Serilog.Sinks.ExcelDnaLogDisplay [![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![License](https://img.shields.io/github/license/augustoproiete/serilog-sinks-exceldnalogdisplay.svg)](LICENSE)
 
 Writes [Serilog](https://serilog.net) events to [Excel-DNA](https://excel-dna.net) `LogDisplay`.
 
@@ -108,6 +108,10 @@ In order for the Excel-DNA LogDisplay sink to work from an add-in that was packa
   <Reference Path="Serilog.Sinks.ExcelDnaLogDisplay.dll" Pack="true" />
 ```
 
+## Release History
+
+Click on the [Releases](https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay/releases) tab on GitHub.
+
 ---
 
-_Copyright &copy; 2018 Caio Proiete & Contributors - Provided under the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html)._
+_Copyright &copy; 2018-2020 C. Augusto Proiete & Contributors - Provided under the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html)._
