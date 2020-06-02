@@ -13,9 +13,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("Release")]
 #endif
 
-[assembly: AssemblyCompany("caioproiete.net")]
+[assembly: AssemblyCompany("augustoproiete.net")]
 [assembly: AssemblyProduct("Serilog.Sinks.ExcelDnaLogDisplay.Tests")]
-[assembly: AssemblyCopyright("Copyright 2018-2020 Caio Proiete & Contributors")]
+[assembly: AssemblyCopyright("Copyright 2018-2020 C. Augusto Proiete & Contributors")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
