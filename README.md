@@ -1,4 +1,4 @@
-# Serilog.Sinks.ExcelDnaLogDisplay [![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![License](https://img.shields.io/github/license/augustoproiete/serilog-sinks-exceldnalogdisplay.svg)](LICENSE)
+# Serilog.Sinks.ExcelDnaLogDisplay [![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-excel--dna-orange.svg)](http://stackoverflow.com/questions/tagged/excel-dna)
 
 Writes [Serilog](https://serilog.net) events to [Excel-DNA](https://excel-dna.net) `LogDisplay`.
 
