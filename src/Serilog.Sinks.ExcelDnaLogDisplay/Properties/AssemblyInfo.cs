@@ -40,7 +40,7 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: AssemblyInformationalVersion("1.1.1-beta1")]
+[assembly: AssemblyInformationalVersion("1.1.1")]
 
 [assembly: InternalsVisibleTo("Serilog.Sinks.ExcelDnaLogDisplay.Tests, PublicKey=" +
                               "00240000048000009400000006020000002400005253413100040000010001005db330d3ef1083" +
