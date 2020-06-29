@@ -7,6 +7,7 @@
     <owners>augustoproiete</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay/releases/tag/v$version$</releaseNotes>
+    <license type="expression">Apache-2.0</license>
     <projectUrl>https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay</projectUrl>
     <repository type="git" url="https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay" />
     <icon>images\icon.png</icon>
