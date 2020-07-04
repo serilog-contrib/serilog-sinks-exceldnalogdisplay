@@ -1,8 +1,13 @@
-# Serilog.Sinks.ExcelDnaLogDisplay [![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-excel--dna-orange.svg)](http://stackoverflow.com/questions/tagged/excel-dna)
+<h1 align="center">Serilog.Sinks.ExcelDnaLogDisplay</h1>
+<div align="center">
+
+[![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-excel--dna-orange.svg)](http://stackoverflow.com/questions/tagged/excel-dna)
 
 Writes [Serilog](https://serilog.net) events to [Excel-DNA](https://excel-dna.net) `LogDisplay`.
 
 ![Excel-DNA LogDisplay window screenshot](assets/exceldna-logdisplay-window.png)
+
+</div>
 
 ## Give a Star! :star:
 
