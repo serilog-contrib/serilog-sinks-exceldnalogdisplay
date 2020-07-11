@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAddIn", "sample\SampleAddIn\SampleAddIn.csproj", "{773F7798-9CF7-4CFA-8353-5D882D11490B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.ExcelDnaLogDisplay", "src\Serilog.Sinks.ExcelDnaLogDisplay\Serilog.Sinks.ExcelDnaLogDisplay.csproj", "{20E3AF43-2C31-47A6-8270-C1B8B4B6C665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.ExcelDnaLogDisplay", "src\Serilog.Sinks.ExcelDnaLogDisplay\Serilog.Sinks.ExcelDnaLogDisplay.csproj", "{20E3AF43-2C31-47A6-8270-C1B8B4B6C665}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.ExcelDnaLogDisplay.Tests", "test\Serilog.Sinks.ExcelDnaLogDisplay.Tests\Serilog.Sinks.ExcelDnaLogDisplay.Tests.csproj", "{6198F301-FDDB-4ED7-8A8B-A0B8E9871737}"
 EndProject
