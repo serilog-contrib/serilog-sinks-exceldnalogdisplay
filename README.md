@@ -1,9 +1,18 @@
+| README.md |
+|:---|
+
+<div align="center">
+
+<img src="assets/serilog-sinks-exceldnalogdisplay-nuget.png" alt="Serilog.Sinks.ExcelDnaLogDisplay" width="100" />
+
+</div>
+
 <h1 align="center">Serilog.Sinks.ExcelDnaLogDisplay</h1>
 <div align="center">
 
-[![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-excel--dna-orange.svg)](http://stackoverflow.com/questions/tagged/excel-dna)
-
 Writes [Serilog](https://serilog.net) events to [Excel-DNA](https://excel-dna.net) `LogDisplay`.
+
+[![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.ExcelDnaLogDisplay.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-excel--dna-orange.svg)](http://stackoverflow.com/questions/tagged/excel-dna)
 
 ![Excel-DNA LogDisplay window screenshot](assets/exceldna-logdisplay-window.png)
 
@@ -13,7 +22,7 @@ Writes [Serilog](https://serilog.net) events to [Excel-DNA](https://excel-dna.ne
 
 If you like or are using this project please give it a star. Thanks!
 
-## Getting started
+## Getting started :rocket:
 
 Install the [Serilog.Sinks.ExcelDnaLogDisplay](https://www.nuget.org/packages/Serilog.Sinks.ExcelDnaLogDisplay/) package from NuGet:
 
