@@ -48,13 +48,15 @@ namespace Serilog.Sinks.ExcelDnaLogDisplay
         {
             EnsureNotDisposed();
 
-            var stringWriter = new StringWriter(new StringBuilder(256));
-            _formatter.Format(logEvent, stringWriter);
-
-            lock (_syncRoot)
+            using (var stringWriter = new StringWriter(new StringBuilder(256)))
             {
-                LogDisplay.DisplayOrder = _displayOrder;
-                LogDisplay.RecordLine(stringWriter.ToString());
+                _formatter.Format(logEvent, stringWriter);
+
+                lock (_syncRoot)
+                {
+                    LogDisplay.DisplayOrder = _displayOrder;
+                    LogDisplay.RecordLine(stringWriter.ToString());
+                }
             }
         }
 
