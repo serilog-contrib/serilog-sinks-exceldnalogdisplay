@@ -81,7 +81,7 @@ The parameters that can be set through the `serilog:write-to:ExcelDnaLogDisplay`
 The Excel-DNA LogDisplay sink creates events in a fixed text format by default:
 
 ```
-2018-09-07 09:02:17.148 -03:00 [INF] HTTP GET / responded 200 in 1994 ms
+2021-09-07 09:02:17.148 -03:00 [INF] HTTP GET / responded 200 in 1994 ms
 ```
 
 The format is controlled using an _output template_, which the Excel-DNA LogDisplay sink configuration method accepts as an `outputTemplate` parameter.
@@ -128,4 +128,4 @@ Click on the [Releases](https://github.com/augustoproiete/serilog-sinks-exceldna
 
 ---
 
-_Copyright &copy; 2018-2020 C. Augusto Proiete & Contributors - Provided under the [Apache License, Version 2.0](LICENSE)._
+_Copyright &copy; 2018-2021 C. Augusto Proiete & Contributors - Provided under the [Apache License, Version 2.0](LICENSE)._
