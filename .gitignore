@@ -28,9 +28,6 @@ Thumbs.db
 *.nupkg
 **/packages/*
 
-#Ignore files created by ReSharper
-_ReSharper*/
-
-#Ignore files created by NUnit
-TestResult.xml
-*.VisualState.xml
+#cake
+.cake/
+/artifacts/*
