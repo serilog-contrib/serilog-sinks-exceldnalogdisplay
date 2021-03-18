@@ -1,3 +1,5 @@
+#tool "nuget:?package=NuGet.CommandLine&version=5.8.1"
+
 #addin "nuget:?package=Cake.MinVer&version=1.0.0"
 #addin "nuget:?package=Cake.Args&version=1.0.0"
 
@@ -8,19 +10,17 @@ Task("clean")
     .Does(() =>
 {
     CleanDirectories("./artifacts/**");
-    CleanDirectories("./src/**/bin");
-    CleanDirectories("./src/**/obj");
-    CleanDirectories("./test/**/bin");
-    CleanDirectories("./test/**/obj");
+    CleanDirectories("./packages/**");
+    CleanDirectories("./**/^{bin,obj}");
 });
 
 Task("restore")
     .IsDependentOn("clean")
     .Does(() =>
 {
-    DotNetCoreRestore("./serilog-sinks-exceldnalogdisplay.sln", new DotNetCoreRestoreSettings
+    NuGetRestore("./serilog-sinks-exceldnalogdisplay.sln", new NuGetRestoreSettings
     {
-        LockedMode = true,
+        NoCache = true,
     });
 });
 
