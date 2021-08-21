@@ -124,7 +124,7 @@ In order for the Excel-DNA LogDisplay sink to work from an add-in that was packa
 
 ## Release History
 
-Click on the [Releases](https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay/releases) tab on GitHub.
+Click on the [Releases](https://github.com/serilog-contrib/serilog-sinks-exceldnalogdisplay/releases) tab on GitHub.
 
 ---
 

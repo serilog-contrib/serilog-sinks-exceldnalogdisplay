@@ -1,1 +1,1 @@
-See: https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay/releases
+See: https://github.com/serilog-contrib/serilog-sinks-exceldnalogdisplay/releases

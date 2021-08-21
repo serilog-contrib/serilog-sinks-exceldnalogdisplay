@@ -60,7 +60,7 @@ Task("pack")
     .IsDependentOn("test")
     .Does(() =>
 {
-    var releaseNotes = $"https://github.com/augustoproiete/serilog-sinks-exceldnalogdisplay/releases/tag/v{buildVersion.Version}";
+    var releaseNotes = $"https://github.com/serilog-contrib/serilog-sinks-exceldnalogdisplay/releases/tag/v{buildVersion.Version}";
 
     DotNetCorePack("./src/Serilog.Sinks.ExcelDnaLogDisplay/Serilog.Sinks.ExcelDnaLogDisplay.csproj", new DotNetCorePackSettings
     {
