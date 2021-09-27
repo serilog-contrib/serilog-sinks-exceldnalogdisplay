@@ -30,4 +30,4 @@ Thumbs.db
 
 #cake
 .cake/
-/artifacts/*
+/artifact/*
