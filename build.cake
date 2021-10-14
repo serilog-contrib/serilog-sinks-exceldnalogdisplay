@@ -32,9 +32,9 @@ Task("build")
         .SetConfiguration(configuration)
         .UseToolVersion(MSBuildToolVersion.VS2019)
         .WithTarget("Rebuild")
-        .WithProperty("Version", buildVersion.Version)
-        .WithProperty("FileVersion", buildVersion.FileVersion)
-        .WithProperty("ContinuousIntegrationBuild", "true")
+        .SetVersion(buildVersion.Version)
+        .SetFileVersion(buildVersion.FileVersion)
+        .SetContinuousIntegrationBuild()
     );
 });
 
@@ -70,9 +70,11 @@ Task("pack")
         IncludeSymbols = true,
         IncludeSource = true,
         OutputDirectory = "./artifact/nuget",
-        MSBuildSettings = new DotNetCoreMSBuildSettings()
-            .WithProperty("Version", buildVersion.Version)
-            .WithProperty("PackageReleaseNotes", releaseNotes)
+        MSBuildSettings = new DotNetCoreMSBuildSettings
+        {
+            Version = buildVersion.Version,
+            PackageReleaseNotes = releaseNotes,
+        },
     });
 });
 
