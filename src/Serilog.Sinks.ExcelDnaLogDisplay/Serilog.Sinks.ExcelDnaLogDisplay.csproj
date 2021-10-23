@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;net461;net472;net48</TargetFrameworks>
+    <TargetFrameworks>net452;net461;net472;net48</TargetFrameworks>
     <RootNamespace>Serilog</RootNamespace>
 
     <AssemblyName>Serilog.Sinks.ExcelDnaLogDisplay</AssemblyName>
@@ -62,7 +62,7 @@
 
   <ItemGroup>
     <PackageReference Include="Serilog" Version="2.5.0" />
-    <PackageReference Include="ExcelDna.Integration" Version="1.1.0" />
+    <PackageReference Include="ExcelDna.Integration" Version="1.5.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 
