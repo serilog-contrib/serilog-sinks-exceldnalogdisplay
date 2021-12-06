@@ -1,7 +1,7 @@
 #tool "nuget:?package=NuGet.CommandLine&version=5.11.0"
 
-#addin "nuget:?package=Cake.MinVer&version=1.0.1"
-#addin "nuget:?package=Cake.Args&version=1.0.1"
+#addin "nuget:?package=Cake.MinVer&version=2.0.0"
+#addin "nuget:?package=Cake.Args&version=2.0.0"
 
 var target       = ArgumentOrDefault<string>("target") ?? "pack";
 var buildVersion = MinVer(s => s.WithTagPrefix("v").WithDefaultPreReleasePhase("preview"));
@@ -42,7 +42,7 @@ Task("test")
     .IsDependentOn("build")
     .Does(() =>
 {
-    var settings = new DotNetCoreTestSettings
+    var settings = new DotNetTestSettings
     {
         Configuration = "Release",
         NoRestore = true,
@@ -52,7 +52,7 @@ Task("test")
     var projectFiles = GetFiles("./test/**/*.csproj");
     foreach (var file in projectFiles)
     {
-        DotNetCoreTest(file.FullPath, settings);
+        DotNetTest(file.FullPath, settings);
     }
 });
 
@@ -62,7 +62,7 @@ Task("pack")
 {
     var releaseNotes = $"https://github.com/serilog-contrib/serilog-sinks-exceldnalogdisplay/releases/tag/v{buildVersion.Version}";
 
-    DotNetCorePack("./src/Serilog.Sinks.ExcelDnaLogDisplay/Serilog.Sinks.ExcelDnaLogDisplay.csproj", new DotNetCorePackSettings
+    DotNetPack("./src/Serilog.Sinks.ExcelDnaLogDisplay/Serilog.Sinks.ExcelDnaLogDisplay.csproj", new DotNetPackSettings
     {
         Configuration = "Release",
         NoRestore = true,
@@ -70,7 +70,7 @@ Task("pack")
         IncludeSymbols = true,
         IncludeSource = true,
         OutputDirectory = "./artifact/nuget",
-        MSBuildSettings = new DotNetCoreMSBuildSettings
+        MSBuildSettings = new DotNetMSBuildSettings
         {
             Version = buildVersion.Version,
             PackageReleaseNotes = releaseNotes,
@@ -96,7 +96,7 @@ Task("push")
         return;
     }
 
-    var nugetPushSettings = new DotNetCoreNuGetPushSettings
+    var nugetPushSettings = new DotNetNuGetPushSettings
     {
         Source = url,
         ApiKey = apiKey,
@@ -104,7 +104,7 @@ Task("push")
 
     foreach (var nugetPackageFile in GetFiles("./artifact/nuget/*.nupkg"))
     {
-        DotNetCoreNuGetPush(nugetPackageFile.FullPath, nugetPushSettings);
+        DotNetNuGetPush(nugetPackageFile.FullPath, nugetPushSettings);
     }
 });
 
