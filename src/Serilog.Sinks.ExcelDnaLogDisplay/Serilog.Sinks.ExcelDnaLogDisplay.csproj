@@ -33,7 +33,7 @@
     <Authors>C. Augusto Proiete &amp; Contributors</Authors>
     <Company>augustoproiete.net</Company>
     <Description>A Serilog sink that writes events to Excel-DNA LogDisplay.</Description>
-    <Copyright>Copyright 2018-2021 C. Augusto Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</Copyright>
+    <Copyright>Copyright 2018-2023 C. Augusto Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</Copyright>
     <PackageTags>serilog;sink;exceldna;excel-dna;logdisplay;excel;serilog-sink;serilog-contrib;augustoproiete;augusto-proiete</PackageTags>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageIcon>images\icon.png</PackageIcon>
